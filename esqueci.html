@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-32x32.png">
+    <title>Íris Bank - Finalmente você no controle do seu dinheiro</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img src="./img/Logotipo-cinza-bank.png" alt="">
+        </a>
+    </header>
+    <section class="login">
+        <div class="hero-form">
+            <h2>Redefinir senha</h2>
+            <form action="./login.html" method="post" class="form-login validatorForm">
+                <input type="hidden" name="password" class="password-hidden">
+                <label for="senha">
+                    Digite sua nova senha
+                    <input type="password" class="senha" name="senha" id="senha" data-rules="required|senha">
+                </label>
+
+                <button type="submit" class="btn">Continuar
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 21 20"
+                        class="sc-pzMyG gRERfq" color="currentColor" role="img">
+                        <title>Arrow Right</title>
+                        <g>
+                            <path d="M18.5 10H2.5M18.5 10L12 16.5M18.5 10L12 3.5" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="square" stroke-linejoin="round"></path>
+                        </g>
+                    </svg>
+                </button>
+
+                <div class="form-info">
+                    <a href="./login.html">Já sou Cliente</a>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
